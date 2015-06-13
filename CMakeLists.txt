@@ -457,8 +457,6 @@ endif()
 #--------------------------------------------------------------------
 # Create generated files
 #--------------------------------------------------------------------
-include(CMakePackageConfigHelpers)
-
 if (UNIX)
     set(GLFW_CONFIG_PATH "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/")
 else()
